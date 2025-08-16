@@ -5,12 +5,12 @@
   ],
   "functions": {
     "api/convert.js": {
-      "memory": 3008,
-      "maxDuration": 30
+      "memory": 2048,  // Changed from 3008 to 2048
+      "maxDuration": 10  // Max allowed for Hobby
     },
     "api/download.js": {
       "memory": 1024,
-      "maxDuration": 15
+      "maxDuration": 10
     }
   }
 }
